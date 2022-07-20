@@ -29,7 +29,7 @@ body{
     margin: 0 50px;
 }
 .banner-text h1 {
-    font-size: 54px;
+    font-size: 3.20em;
     line-height: 64px;
     font-weight: bolder;
     margin-top: 100px;
@@ -40,8 +40,8 @@ body{
     color:#FFFFFF;
     font-weight: 300;
 }
-.banner-btn {
-    padding: 15px 20px;
+.btn {
+    padding: 13px 25px;
     background: #DD0000;
     border-radius: 5px;
     font-size: 16px;
@@ -51,9 +51,9 @@ body{
     margin-top: 10px;
     transition: .7s;
 }
-.banner-btn:hover{
+.btn:hover{
     color: #DD0000;
-    border: 1px solid #DD0000;
+    border: 2px solid #DD0000;
     background: none;
     transition: .7s;
 }
@@ -173,6 +173,12 @@ margin: 0 50px;
     font-size: 14px;
 }
 
+.view-all-btn{
+    text-align: center;
+    margin-top: 100px;
+    border: 0;
+    display: none;
+}
 /* end main section  css  */
 
 

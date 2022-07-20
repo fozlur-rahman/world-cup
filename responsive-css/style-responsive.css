@@ -1,0 +1,108 @@
+@media only screen and (max-width: 480px){
+
+    /* header css  */
+    #header {
+        margin-top: 120px;
+    }
+.header-banner {
+    width: 80%;
+    height:  auto;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+.banner-text{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-text h1 {
+    font-size: 1.75em;
+    text-align: center;
+    line-height: 38px;
+    margin-top: 50px;
+
+}
+.banner-text p {
+    font-size: .75em;
+    margin-bottom: 15px;
+}
+.btn {
+    padding: 8px 12px;
+    border: 0;
+    font-size: 14px;
+}
+.banner-image {
+    width: 80%;
+    margin: 0 auto;
+}
+.banner-imageg img{
+    width: 100%;
+}
+
+/* main section css  */
+
+#main-section {
+    display: block;
+}
+
+.aside-bar {
+    display: block;
+    width: 100%;
+    margin-top: 150px;
+}
+.aside-menu {
+    width: 45%;
+    margin:  0 auto;
+    background: none;
+}
+
+.menu {
+    display: block;
+    width: 100%;
+}
+.menu li:first-child{
+    width:150%;
+    margin-left: -25%;
+}
+.menu li a {
+    border: 1px solid rgb(192, 191, 191);
+}
+
+/* article section css  */
+.article-bar {
+    width: 100%;
+}
+.blogs{
+    display: block;
+    width: 100%;
+}
+.blog {
+    margin: 20px auto ;
+}
+
+/* footer section css  */
+footer {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+footer h2 {
+    font-size: 22px;
+    text-align: center;
+}
+.footer-nav {
+    margin: 20px auto;
+}
+.nav-bar{
+    display: block;
+    padding-left: 0;
+    margin-top: 0;
+}
+.nav-bar li {
+    margin: 15px 0;
+}
+.nav-bar li a{
+    font-size: 12px;
+    
+}
+}
