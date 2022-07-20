@@ -129,13 +129,13 @@ margin: 0 50px;
     width: 75%;
     padding-bottom: 50px;
 }
-.blogs{
+.matchs{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2%;
 }
-.blog{
+.match{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -143,34 +143,30 @@ margin: 0 50px;
     border-radius: 10px;
     box-shadow: 0px 0px 2px #b9b9b959;
 }
-.blog img {
-    width: 100%;
+.match-details{
+    width: 80%;
+    margin: 45px auto;
+    text-align: center;
 }
-.blog-detail{
-    width: 90%;
-    margin: 0 auto;
-}
-.tranfer-btn{
-    font-size: 14px;
-    font-weight: 600;
-    padding: 3px 14px;
-    letter-spacing: .5px;
-    margin-top: 20px;
-    border-radius: 4px;
-    border: 1px solid black;
-    
-}
-.blog-detail h4{
-    font-size: 14px;
-    margin-bottom: 0;
-}
-.blog-bottom{
+.team-flags{
     display: flex;
     flex-direction: row;
-    color: rgb(94, 93, 93);
-    font-weight: 200;
     gap: 20px;
+}
+.team-flags h4 {
+    margin-top: 5%;
+}
+.match-title{
+    margin: 8px 0;
+}
+.team-flags img {
+    width: 100%;
+    height: 100%
+}
+.match-time{
     font-size: 14px;
+    color: rgb(54, 54, 54);
+    margin: 0;
 }
 
 /* end main section  css  */
