@@ -52,10 +52,10 @@ body{
     transition: .7s;
 }
 .btn:hover{
-    color: #DD0000;
-    border: 2px solid #DD0000;
-    background: none;
+    color: black;
+    background: white;
     transition: .7s;
+    cursor: pointer;
 }
 .banner-image{
 width: 50%;
@@ -63,8 +63,8 @@ margin: 0 50px;
 }
 .banner-image img {
     width: 100%;
+    height: 100%;
     
-    margin-top: 100px;
 }
 /* end header section css  */
 
@@ -115,9 +115,10 @@ margin: 0 50px;
     font-weight: 700;
     color: black;
     transition: .7s;
+    cursor: pointer;
 }
 
-.menu li a:active{
+.menu li a:hover{
     background: #DD0000;
     transition: .7s;
 }
@@ -200,7 +201,7 @@ footer hr{
     margin:  0 auto;
     height: 1px;
     border: 0;
-    background: rgb(168, 167, 167);
+    background: rgb(71, 69, 69);
 }
 
 .footer-nav{

@@ -52,10 +52,10 @@ body{
     transition: .7s;
 }
 .banner-btn:hover{
-    color: #DD0000;
-    border: 1px solid #DD0000;
-    background: none;
+    color: black;
+    background: white;
     transition: .7s;
+    cursor: pointer;
 }
 .banner-image{
 width: 50%;
@@ -117,7 +117,7 @@ margin: 0 50px;
     transition: .7s;
 }
 
-.menu li a:active{
+.menu li a:hover{
     background: #DD0000;
     transition: .7s;
 }

@@ -19,7 +19,7 @@
 .banner-text h1 {
     font-size: 1.75em;
     text-align: center;
-    line-height: 38px;
+    line-height: 45px;
     margin-top: 50px;
 
 }
@@ -34,7 +34,7 @@
 }
 .banner-image {
     width: 80%;
-    margin: 0 auto;
+    margin: -7px auto;
 }
 .banner-imageg img{
     width: 100%;
@@ -73,11 +73,11 @@
 .article-bar {
     width: 100%;
 }
-.blogs{
+.matchs{
     display: block;
     width: 100%;
 }
-.blog {
+.match {
     margin: 20px auto ;
 }
 
