@@ -5,6 +5,7 @@
     }
         .header-banner{
         height: 392px;;
+        margin-top: 20px;
     }
         .banner-text{
             width: 100%;
@@ -94,13 +95,14 @@
     footer {
         clear: both;
         padding: 20px 0;
+        margin-top: 50px;
     }
     
     .nav-bar {
         width: 100%;
         padding: 0;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         row-gap: 20px;
        
     }

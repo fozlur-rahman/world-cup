@@ -117,10 +117,14 @@ margin: 0 50px;
     transition: .7s;
     cursor: pointer;
 }
-
 .menu li a:hover{
     background: #DD0000;
+    color: white;
     transition: .7s;
+}
+.active-link {
+    background: #DD0000;
+    color: white;
 }
 /* end aside-bar css  */
 
